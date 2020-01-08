@@ -18,7 +18,7 @@ Then feed an express() listener with routing to the app.
 ```javascript
 require("dotenv").config()
 const express = require('express')
-const httpsServer = require('@see-king')
+const httpsServer = require('https-server')
 
 // create express listener
 const api = express()

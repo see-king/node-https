@@ -18,7 +18,9 @@ Then feed an express() listener with routing to the app.
 ```javascript
 require("dotenv").config()
 const express = require('express')
-const httpsServer = require('https-server')
+
+// Require the package
+const httpsServer = require('node-https')
 
 // create express listener
 const api = express()

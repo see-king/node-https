@@ -1,5 +1,5 @@
 {
-  "name": "https-server",
+  "name": "@skng/https-server",
   "version": "1.0.0",
   "description": "Small HTTPS server that shows a provided static content folder",
   "main": "index.js",

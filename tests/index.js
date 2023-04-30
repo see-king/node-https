@@ -1,5 +1,5 @@
 const express = require('express')
-const httpsServer = require('https-server')
+const httpsServer = require('../index')
 const axios = require('axios')
 
 require("dotenv").config()
